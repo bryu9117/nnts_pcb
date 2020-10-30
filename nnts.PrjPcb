@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PGRXKXDB
 
 [Document3]
-DocumentPath=nnts.PcbDoc
+DocumentPath=NODE_Module.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HRUGFYRT
 
 [Document4]
-DocumentPath=nnts.SchDoc
+DocumentPath=NODE_Module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
