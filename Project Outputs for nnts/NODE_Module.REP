@@ -2,37 +2,31 @@
 FileName = NODE_Module.GBR
 AutoAperture = True
 *************************************************************
-Generating : Int2 (GND)
-      File : NODE_Module.G2
+Generating : Top Overlay
+      File : NODE_Module.GTO
 
-    Adding Layer      : Int2 (GND)
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D107
-    D112
-    D113
-    D114
-    D115
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
 *************************************************************
 
 *************************************************************
-Generating : Int1 (GND)
-      File : NODE_Module.G1
+Generating : Keep-Out Layer
+      File : NODE_Module.GKO
 
-    Adding Layer      : Int1 (GND)
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D107
-    D112
-    D113
-    D114
-    D115
+    D117
 *************************************************************
 
 *************************************************************
@@ -45,7 +39,7 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D10
+    D14
     D17
     D18
     D19
@@ -73,6 +67,7 @@ Used DCodes :
     D41
     D42
     D43
+    D44
     D45
     D46
     D47
@@ -80,14 +75,12 @@ Used DCodes :
     D49
     D50
     D51
-    D52
     D53
     D54
     D55
     D56
-    D73
-    D83
-    D103
+    D82
+    D91
     D104
     D105
     D106
@@ -100,27 +93,23 @@ Used DCodes :
     D113
     D114
     D115
+    D116
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : NODE_Module.GBO
+Generating : Int1 (GND)
+      File : NODE_Module.G1
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Int1 (GND)
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : NODE_Module.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
+    D108
+    D113
+    D114
+    D115
     D116
 *************************************************************
 
@@ -136,7 +125,6 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D95
     D96
     D97
     D98
@@ -144,6 +132,41 @@ Used DCodes :
     D100
     D101
     D102
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : NODE_Module.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : NODE_Module.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D16
 *************************************************************
 
 *************************************************************
@@ -158,12 +181,12 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D23
-    D28
-    D32
-    D41
-    D42
-    D52
+    D29
+    D31
+    D34
+    D39
+    D49
+    D50
     D57
     D58
     D59
@@ -210,6 +233,7 @@ Used DCodes :
     D100
     D101
     D102
+    D103
 *************************************************************
 
 *************************************************************
@@ -267,23 +291,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : NODE_Module.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-*************************************************************
-
-*************************************************************
 Generating : Top Pad Master
       File : NODE_Module.GPT
 
@@ -320,6 +327,7 @@ Used DCodes :
     D41
     D42
     D43
+    D44
     D45
     D46
     D47
@@ -327,14 +335,12 @@ Used DCodes :
     D49
     D50
     D51
-    D52
     D53
     D54
     D55
     D56
-    D73
-    D83
-    D103
+    D82
+    D91
     D104
     D105
     D106
@@ -343,6 +349,24 @@ Used DCodes :
     D109
     D110
     D111
+    D112
+*************************************************************
+
+*************************************************************
+Generating : Int2 (GND)
+      File : NODE_Module.G2
+
+    Adding Layer      : Int2 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D108
+    D113
+    D114
+    D115
+    D116
 *************************************************************
 
 *************************************************************
@@ -355,34 +379,11 @@ Generating : Bottom Pad Master
 
 
 Used DCodes :
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : NODE_Module.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D106
     D107
     D108
     D109
     D110
     D111
     D112
-    D113
-    D114
-    D115
 *************************************************************
 
